@@ -8,10 +8,11 @@ This API help to login and register users.
 
 ### Prerequisites
 
-You need a database, works with MongoDB local or MongoDB Atlas, the URI must go in .env file.
+You need a database, works with MongoDB local or MongoDB Atlas, the URI must go in .env file and the secret.
 
 ```
-DB_URI='your_database_uri'
+DB_URI=<your_database_uri>
+TOKEN_SECRET=<your_secret>
 ```
 
 ### Installing
@@ -29,4 +30,4 @@ Runs the API in the development mode.<br>
 ```
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) to activate the server.
+Now the API is running on [http://localhost:3000](http://localhost:3000) 
