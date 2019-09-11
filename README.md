@@ -22,7 +22,11 @@ Run the following command for installation
 npm install
 ```
 
-### `npm start`
+### Run API
 
 Runs the API in the development mode.<br>
+
+```
+npm run dev
+```
 Open [http://localhost:3000](http://localhost:3000) to activate the server.
