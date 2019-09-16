@@ -11,6 +11,7 @@ This API help to login and register users.
 You need a database, works with MongoDB local or MongoDB Atlas, the URI must go in .env file and the secret.
 
 ```
+PORT=<local_port>
 DB_URI=<your_database_uri>
 TOKEN_SECRET=<your_secret>
 ```
